@@ -1,0 +1,93 @@
+/* Estilos para la tarjeta */
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  max-width: 250px;
+  text-align: center;
+}
+
+.tarjeta:hover {
+  transform: scale(1.05);
+}
+
+.tarjeta-imagen {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.tarjeta-contenido {
+  padding: 10px;
+  width: 100%;
+}
+
+.tarjeta-titulo {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #333;
+}
+
+.tarjeta-descripcion {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.tarjeta-precio {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #27ae60;
+}
+
+/* Botones */
+.boton-agregar,
+.boton-quitar {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.boton-agregar {
+  background-color: #27ae60;
+  color: white;
+}
+
+.boton-agregar:hover {
+  background-color: #219150;
+}
+
+.boton-quitar {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.boton-quitar:hover {
+  background-color: #c0392b;
+}
+
+/* Estilos para el carrito */
+.carrito {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Se ajusta dinámicamente */
+  gap: 15px;
+  justify-content: center;
+  padding: 20px;
+  max-width: 1000px; /* Asegura que haya suficiente espacio */
+  margin: 0 auto; /* Centra el grid en la pantalla */
+}
+
