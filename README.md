@@ -25,5 +25,5 @@ Currently, two official plugins are available:
   Crear carpeta context para en ella crear los archivos .jsx ComprasPage,CarritoPage
   Crear carpeta styles para en ella crear los archivos .CSS cards, listas.
 
-  La funcionalidad básica de este ejercicio del carrito de compras es que me permita consumir una api de productos el cual los pueda agregar al carrito y poder mostralos en una lista  con las opciones de aumentar,disminuir cantidad o elinimar el producto agergado.
+  La funcionalidad básica de este ejercicio del carrito de compras es que me permita consumir una api de productos el cual los pueda agregar al carrito y poder mostrarlos en una lista  con las opciones de aumentar,disminuir cantidad o eliminar el producto agregado.
   
