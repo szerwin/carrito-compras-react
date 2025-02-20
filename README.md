@@ -6,6 +6,8 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+  
   Con el desarrollo de este ejercicio del carrito de compras se busca mejoara el concepto y manejo del framework react utilizando algunos hooks que se emplean en este frameworks.
 
   
